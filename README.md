@@ -1,5 +1,6 @@
+
 # Graph-Database
-Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks
+**Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
 
 
 Installation steps:
@@ -42,21 +43,29 @@ the Neo4j Browser and execute them by pressing CTRL+Enter or clicking on the arr
 You will find the chemical structure pictures in the PNG folder. You can set the "image" property for each node 
 as follows to point to your location (e.g. Apache) of the pictures:
 
-match (n) 
-where n:G OR n:Transformation or n:Substituent or n:Core AND exists(n.image)
-set n.image = REPLACE(n.image,"your_path","my_server_and_port/path");
+**MATCH** (n) 
+**WHERE** n:G **OR** n:Transformation **OR** n:Substituent **OR** n:Core **AND** **EXISTS**(n.image)
+**SET** n.image = **REPLACE**(n.image,"your_path","my_server_and_port/path");
 
 E.g.:
 
-match (n) 
-where n:G OR n:Transformation or n:Substituent or n:Core AND exists(n.image)
-set n.image = REPLACE(n.image,"your_path","myserver.mydomain.com:7555/HERG_PNG");
+**MATCH** (n) 
+**WHERE** n:G **OR** n:Transformation **OR** n:Substituent **OR** n:Core **AND** **EXISTS**(n.image)
+**SET** n.image = **REPLACE**(n.image,"your_path","myserver.mydomain.com:8080/HERG_PNG");
 
-Apache http server can be found here: https://httpd.apache.org/download.cgi
+Apache http server download: https://httpd.apache.org/download.cgi
 Apache installation instructions: https://httpd.apache.org/docs/
 
 Please be aware that Neo4j Browser cannot display node pictures. Hence, a tool like Graphileon PE or Tom Sawyer Graph 
 Database Browser is needed for this task.
+
+You can download free Graphileon PE from here:
+
+https://graphileon.com/
+
+Follow the installation steps for Graphileon PE:
+
+https://docs.graphileon.com/graphileon/Welcome.html
 
 Some of the Cypher query results may come back slowly, which is caused by Neo4j Browser. These queries are actually
 fast when execution and data consumption takes place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
@@ -72,3 +81,4 @@ Follow the installation steps for Graphileon PE:
 https://docs.graphileon.com/graphileon/Welcome.html
 
 Enjoy!
+
