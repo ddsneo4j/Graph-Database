@@ -37,7 +37,7 @@ cd neo4j-community-3.4.4/bin
 
 ./neo4j start
 
-Open Neo4j Browser to access the imported graph database
+Open **Neo4j Browser** to access the imported graph database
 (Replace hostname by your server name or localhost):
 
 http://hostname:7474/browser 
@@ -48,7 +48,7 @@ You are supposed to change the password of the graph database user "neo4j" at yo
 Now you can copy and paste the Cypher queries from the supporting information into the top pane of
 the Neo4j Browser and execute them by pressing CTRL+Enter or clicking on the arrow (>) right next to this pane.
 
-You will find the chemical structure pictures in the PNG folder. We used 7zip to split the zip archives due to Github file size limmitations.
+You will find the chemical structure pictures in the PNG folder. We used 7zip to split the zip archives due to Github file size limitations.
 In Neo4j, you can set the "image" property for each node as follows to point to your location (e.g. Apache) of the pictures:
 
 **MATCH** (n) 
