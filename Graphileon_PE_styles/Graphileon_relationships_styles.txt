@@ -1,0 +1,97 @@
+
+The first line, which starts with a colon needs to be entered into the rel box of the relationships styles dialogue
+in Graphileon PE. The respective block underneath needs to be pasted into the JSON box below the rel box within 
+the same dialogue. Please make sure to keep the same order as below.
+
+
+
+:VIA
+
+{
+	"fillColor": "#999",
+	"width": 3,
+	"label": "''",
+	"toDecoration": "none",
+	"marker": {
+		"display": "arrow",
+		"width": 10,
+		"lineWidth": 1,
+		"color": "grey",
+		"fillColor": "grey"
+	},
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "0.1px",
+		"color": "black"
+	}
+}
+
+
+:Similarity
+
+{
+	"fillColor": "blue",
+	"width": 3,
+	"label": "(%).properties.fingerprintSimilarity",
+	"toDecoration": "none",
+	"labelPosition": "middle",
+	"marker": {
+		"display": "none",
+		"width": 10,
+		"lineWidth": 1,
+		"color": "blue",
+		"fillColor": "blue"
+	},
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "0.1px",
+		"color": "black"
+	}
+}
+
+
+:TOPO_DISTANCE
+
+{
+	"fillColor": "#f6c4cf",
+	"width": 3,
+	"label": "(%).properties.Topo_Distance",
+	"toDecoration": "none",
+	"labelPosition": "middle",
+	"marker": {
+		"display": "none",
+		"width": 10,
+		"lineWidth": 1,
+		"color": "#f6c4cf",
+		"fillColor": "#f6c4cf"
+	},
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "0.1px",
+		"color": "black"
+	}
+}
+
+
+:TOPO_SALI
+
+{
+	"fillColor": "#e5e32b",
+	"width": 3,
+	"label": "(%).properties.Topo_Sali",
+	"toDecoration": "none",
+	"labelPosition": "middle",
+	"marker": {
+		"display": "none",
+		"width": 10,
+		"lineWidth": 1,
+		"color": "#e5e32b",
+		"fillColor": "#e5e32b"
+	},
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "0.1px",
+		"color": "black"
+	}
+}
+

@@ -81,6 +81,8 @@ Download free Graphileon PE from here: https://graphileon.com/
 
 Follow the installation steps for Graphileon PE: https://docs.graphileon.com/graphileon/Welcome.html
 
+Nodes and relathionships styles are provided in the Graphileon_PE_styles folder.
+
 Some of the Cypher query results may come back slowly, which is caused by Neo4j Browser. These queries are actually
 fast when execution and data consumption take place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
 Tom Sawyer Graph Database Browser. We highly recommend having the Neo4j graph database and the visualization tool collocated 

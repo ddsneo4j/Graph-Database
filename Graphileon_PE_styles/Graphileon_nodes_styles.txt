@@ -1,0 +1,131 @@
+
+The first line, which starts with a colon needs to be entered into the node box of the nodes styles dialogue
+in Graphileon PE. The respective block underneath needs to be pasted into the JSON box below the node box within 
+the same dialogue. Please make sure to keep the same order as below.
+
+:Transformation
+
+{
+	"display": "rectangle",
+	"width": 200,
+	"height": 100,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "blue",
+	"lineWidth": "1px",
+	"lineOpacity": "1",
+	"label": "(%).properties.MMPA_diffBio",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
+
+
+:G[activity>7.69]
+
+{
+	"display": "circle",
+	"width": 100,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "red",
+	"lineWidth": "5px",
+	"lineOpacity": "1",
+	"label": "(%).properties.name+' '+(%).properties.activity",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
+
+
+-----
+
+:G[activity<7.69]
+
+{
+	"display": "circle",
+	"width": 100,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "yellow",
+	"lineWidth": "5px",
+	"lineOpacity": "1",
+	"label": "(%).properties.name+' '+(%).properties.activity",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
+
+---------
+
+:G[activity<6.69]
+
+{
+	"display": "circle",
+	"width": 100,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "green",
+	"lineWidth": "5px",
+	"lineOpacity": "1",
+	"label": "(%).properties.name+' '+(%).properties.activity",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
+
+:Core
+
+{
+	"display": "circle",
+	"width": 80,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "#555",
+	"lineWidth": "1px",
+	"lineOpacity": "1",
+	"label": "'actDiff: '+(%).properties.actDiff",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
+
+:Substituent
+
+{
+	"display": "circle",
+	"width": 80,
+	"fillColor": "white",
+	"opacity": "1",
+	"lineColor": "pink",
+	"lineWidth": "1px",
+	"lineOpacity": "1",
+	"label": "(%).properties.name",
+	"image": "properties.image",
+	"labelPosition": "bottom",
+	"labelStyle": {
+		"font": "15px Verdana, Sans-Serif",
+		"fontWeight": "5",
+		"color": "black"
+	}
+}
