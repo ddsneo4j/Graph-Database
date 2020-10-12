@@ -70,9 +70,6 @@ fast when execution and data consumption take place in Neo4j's cypher-shell or g
 Tom Sawyer Graph Database Browser. We highly recommend having the Neo4j graph database and the visualization tool collocated 
 on the same machine for best performance.
 
-Graphileon PE download: https://graphileon.com/
-
-Follow the installation steps for Graphileon PE: https://docs.graphileon.com/graphileon/Welcome.html
 
 Enjoy!
 
