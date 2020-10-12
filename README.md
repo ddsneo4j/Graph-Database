@@ -1,9 +1,10 @@
 
 # Graph-Database
-**Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
+
+## **Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
 
 
-Installation steps:
+**Installation steps**:
 
 Download Neo4j community edition 3.4.4 and APOC plugin 3.4.0.1:
 
@@ -72,4 +73,5 @@ on the same machine for best performance.
 
 
 Enjoy!
+
 
