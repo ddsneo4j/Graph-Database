@@ -54,31 +54,25 @@ E.g.:
 **SET** n.image = **REPLACE**(n.image,"your_path","myserver.mydomain.com:8080/HERG_PNG");
 
 Apache http server download: https://httpd.apache.org/download.cgi
+
 Apache installation instructions: https://httpd.apache.org/docs/
+
 
 Please be aware that Neo4j Browser cannot display node pictures. Hence, a tool like Graphileon PE or Tom Sawyer Graph 
 Database Browser is needed for this task.
 
-You can download free Graphileon PE from here:
+Download free Graphileon PE from here: https://graphileon.com/
 
-https://graphileon.com/
-
-Follow the installation steps for Graphileon PE:
-
-https://docs.graphileon.com/graphileon/Welcome.html
+Follow the installation steps for Graphileon PE: https://docs.graphileon.com/graphileon/Welcome.html
 
 Some of the Cypher query results may come back slowly, which is caused by Neo4j Browser. These queries are actually
 fast when execution and data consumption take place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
 Tom Sawyer Graph Database Browser. We highly recommend having the Neo4j graph database and the visualization tool collocated 
 on the same machine for best performance.
 
-Graphileon PE download:
+Graphileon PE download: https://graphileon.com/
 
-https://graphileon.com/
-
-Follow the installation steps for Graphileon PE:
-
-https://docs.graphileon.com/graphileon/Welcome.html
+Follow the installation steps for Graphileon PE: https://docs.graphileon.com/graphileon/Welcome.html
 
 Enjoy!
 
