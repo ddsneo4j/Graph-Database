@@ -40,8 +40,8 @@ You are supposed to change the password of the graph database user "neo4j" at yo
 Now you can copy and paste the Cypher queries from the supporting information into the top pane of
 the Neo4j Browser and execute them by pressing CTRL+Enter or clicking on the arrow (>) right next to this pane.
 
-You will find the chemical structure pictures in the PNG folder. You can set the "image" property for each node 
-as follows to point to your location (e.g. Apache) of the pictures:
+You will find the chemical structure pictures in the PNG folder. We used 7zip to split the zip archives due to Github file size limmitations.
+In Neo4j, you can set the "image" property for each node as follows to point to your location (e.g. Apache) of the pictures:
 
 **MATCH** (n) 
 **WHERE** n:G **OR** n:Transformation **OR** n:Substituent **OR** n:Core **AND** **EXISTS**(n.image)
@@ -72,7 +72,7 @@ fast when execution and data consumption take place in Neo4j's cypher-shell or g
 Tom Sawyer Graph Database Browser. We highly recommend having the Neo4j graph database and the visualization tool collocated 
 on the same machine for best performance.
 
-You can download Graphileon PE from here:
+Graphileon PE download:
 
 https://graphileon.com/
 
