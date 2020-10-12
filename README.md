@@ -10,6 +10,7 @@
 Download Neo4j 3.4.4 community edition and APOC 3.4.0.1 plugin:
 
 https://neo4j.com/artifact.php?name=neo4j-community-3.4.4-unix.tar.gz
+
 https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.4.0.1/apoc-3.4.0.1-all.jar
 
 Download neo4j.conf template and graph_db data dump from Github:
