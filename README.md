@@ -48,6 +48,7 @@ Open **Neo4j Browser** to access the imported graph database
 (Replace hostname by your server name or localhost):
 
 http://hostname:7474/browser 
+
 login/passwd: neo4j/neo4j
 
 You are supposed to change the password of the graph database user "neo4j" at your first login.
