@@ -26,9 +26,13 @@ Note: adjust neo4j.conf according to your hardware specs!
 (The one provided uses 32 GB for heap and 11 GB for page cache.)
 
 cp neo4j.conf neo4j-community-3.4.4/conf/
+
 cp apoc-3.4.0.1-all.jar neo4j-community-3.4.4/plugins/
+
 cp graph_db.dump neo4j-community-3.4.4/import
+
 cd neo4j-community-3.4.4/bin
+
 ./neo4j-admin load --from=../import/graph_db.dump --database=graph.db --force
 
 ./neo4j start
