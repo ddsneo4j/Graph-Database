@@ -68,7 +68,7 @@ Follow the installation steps for Graphileon PE:
 https://docs.graphileon.com/graphileon/Welcome.html
 
 Some of the Cypher query results may come back slowly, which is caused by Neo4j Browser. These queries are actually
-fast when execution and data consumption takes place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
+fast when execution and data consumption take place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
 Tom Sawyer Graph Database Browser. We highly recommend having the Neo4j graph database and the visualization tool collocated 
 on the same machine for best performance.
 
