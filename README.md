@@ -5,10 +5,8 @@
 
 
 Hans Matter*, Christian Buning, Dan Dragos Stefanescu, Sven Ruf, Gerhard Hessler  
-		Sanofi-Aventis Deutschland GmbH, R&D,  
-			Integrated Drug Discovery,  
-			   Industriepark Höchst,  
-		D-65926 Frankfurt am Main, Germany.
+
+Sanofi-Aventis Deutschland GmbH, R&D,  Integrated Drug Discovery,  Industriepark Höchst,  D-65926 Frankfurt am Main, Germany.
 
 * Corresponding author:  
 Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
