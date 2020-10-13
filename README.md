@@ -57,8 +57,9 @@ login/passwd: neo4j/neo4j
 
 You are supposed to change the password of the graph database user "neo4j" at your first login.
 
-Now you can copy and paste the Cypher queries from the supporting information into the top pane of
-the Neo4j Browser and execute them by pressing CTRL+Enter or clicking on the arrow (>) right next to this pane.
+We do recommend disabling “connect result nodes” in Neo4j Browser. Now you can copy and paste the Cypher queries 
+from the supporting information into the top pane of the Neo4j Browser and execute them by pressing CTRL+Enter or 
+clicking on the arrow (>) right next to this pane.
 
 You will find the chemical structure pictures in the PNG folder. We used 7zip to split the zip archives due to Github's file size limitations.
 In Neo4j, you can set the "image" property for each node as follows to point to your location (e.g. Apache) of the pictures:
@@ -85,7 +86,8 @@ Download free Graphileon PE from here: https://graphileon.com/
 
 Follow the installation steps for Graphileon PE: https://docs.graphileon.com/graphileon/Welcome.html
 
-Nodes- and relathionships styles are provided in the Graphileon_PE_styles folder.
+We do recommend disabling "Auto-complete relations" in Graphileon PE. Styles for nodes and relathionships are provided in the 
+Graphileon_PE_styles folder.
 
 Some of the Cypher query results may come back slowly, which is caused by Neo4j Browser. These queries are actually
 fast when execution and data consumption take place in Neo4j's cypher-shell or graph visualization tools such as Graphileon PE or 
