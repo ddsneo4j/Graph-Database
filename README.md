@@ -31,7 +31,7 @@ Extract Neo4j:
 
 tar zxvf neo4j-community-3.4.4-unix.tar.gz
 
-Note: adjust neo4j.conf according to your hardware specs!
+**Note**: adjust neo4j.conf according to your hardware specs!
 (The one provided uses 32 GB for heap and 11 GB for page cache.)
 
 cp neo4j.conf neo4j-community-3.4.4/conf/
