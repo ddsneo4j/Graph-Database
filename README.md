@@ -14,13 +14,15 @@ Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
 
 **Installation steps**:
 
-Download Neo4j 3.4.4 community edition and APOC 3.4.0.1 plugin:
+Download Neo4j 3.4.4 community edition, APOC 3.4.0.1 plugin and graph-algorithms plugin:
 
 https://neo4j.com/artifact.php?name=neo4j-community-3.4.4-unix.tar.gz
 
 https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.4.0.1/apoc-3.4.0.1-all.jar
 
-Download neo4j.conf template and graph_db data dump from Github:
+https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/download/3.4.7.0/graph-algorithms-algo-3.4.7.0.jar
+
+Download neo4j.conf template and graph_db.dump data dump from Github:
 
 https://github.com/ddsneo4j/Graph-Database
 
@@ -35,6 +37,8 @@ Note: adjust neo4j.conf according to your hardware specs!
 cp neo4j.conf neo4j-community-3.4.4/conf/
 
 cp apoc-3.4.0.1-all.jar neo4j-community-3.4.4/plugins/
+
+cp graph-algorithms-algo-3.4.7.0.jar neo4j-community-3.4.4/plugins/
 
 cp graph_db.dump neo4j-community-3.4.4/import
 
