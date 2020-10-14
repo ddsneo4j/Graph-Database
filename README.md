@@ -23,9 +23,7 @@ Database Issue. 42 D1083-D1090 DOI:10.1093/nar/gkt1031 PMID:24214965
 
 The original **ChEMBL** data and license information are available under the following link:
 
-http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/
-
-  
+http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/  
   
 
 
