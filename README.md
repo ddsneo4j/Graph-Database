@@ -15,15 +15,16 @@ Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
 Dan Dragos Stefanescu, Phone: +49-69-305-16288; E-Mail: DanDragos.Stefanescu@sanofi.com
 
 
-This Neo4j graph database uses hERG data from the publicly available ChEMBL 23 database:
+This Neo4j graph database uses hERG data from the publicly available **ChEMBL 23** database:
 
 A.P. Bento, A. Gaulton, A. Hersey, L.J. Bellis, J. Chambers, M. Davies, F.A. Krüger, Y. Light, L. Mak, S. McGlinchey, M. Nowotka, 
 G. Papadatos, R. Santos & J.P. Overington (2014) 'The ChEMBL bioactivity database: an update' Nucl. Acids Res. 
 Database Issue. 42 D1083-D1090 DOI:10.1093/nar/gkt1031 PMID:24214965
 
-The original ChEMBL data and license information are available under the following link:
+The original **ChEMBL** data and license information are available under the following link:
 
 http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/
+
 
 
 **Installation steps for the graph database**:
