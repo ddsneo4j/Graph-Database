@@ -11,8 +11,22 @@ Sanofi-Aventis Deutschland GmbH, R&D,  Integrated Drug Discovery,  Industriepark
 * Corresponding author:  
 Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
 
+* Contact for technical questions:
+Dan Dragos Stefanescu, Phone: +49-69-305-16288; E-Mail: DanDragos.Stefanescu@sanofi.com
 
-**Installation steps**:
+
+This Neo4j graph database uses hERG data from the publicly available ChEMBL 23 database:
+
+A.P. Bento, A. Gaulton, A. Hersey, L.J. Bellis, J. Chambers, M. Davies, F.A. Krüger, Y. Light, L. Mak, S. McGlinchey, M. Nowotka, 
+G. Papadatos, R. Santos & J.P. Overington (2014) 'The ChEMBL bioactivity database: an update' Nucl. Acids Res. 
+Database Issue. 42 D1083-D1090 DOI:10.1093/nar/gkt1031 PMID:24214965
+
+The original ChEMBL data and license information are available under the following link:
+
+http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/
+
+
+**Installation steps for the graph database**:
 
 Download Neo4j 3.4.4 community edition, APOC 3.4.0.1 plugin and graph-algorithms plugin:
 
