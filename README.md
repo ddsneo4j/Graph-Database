@@ -11,7 +11,7 @@ Sanofi-Aventis Deutschland GmbH, R&D,  Integrated Drug Discovery,  Industriepark
 * Corresponding author:  
 Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
 
-* Contact for technical questions:
+* Contact for technical questions:  
 Dan Dragos Stefanescu, Phone: +49-69-305-16288; E-Mail: DanDragos.Stefanescu@sanofi.com
 
 
@@ -25,7 +25,7 @@ The original **ChEMBL** data and license information are available under the fol
 
 http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/
 
-
+  
 
 **Installation steps for the graph database**:
 
