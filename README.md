@@ -1,11 +1,11 @@
 
 # Graph-Database
 
-   **Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
 
 ## **Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
 
-
+   **Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
+   
 Hans Matter*, Christian Buning, Dan Dragos Stefanescu, Sven Ruf, Gerhard Hessler  
 
 Sanofi-Aventis Deutschland GmbH, R&D,  Integrated Drug Discovery,  Industriepark Höchst,  D-65926 Frankfurt am Main, Germany.
