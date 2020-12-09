@@ -1,6 +1,8 @@
 
 # Graph-Database
 
+## **Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
+##
 ## **Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
 
 
@@ -14,7 +16,6 @@ Dr. Hans Matter, Phone: +49-69-305-84329; E-Mail: Hans.Matter@sanofi.com
 * Contact for technical questions:  
 Dan Dragos Stefanescu, Phone: +49-69-305-16288; E-Mail: DanDragos.Stefanescu@sanofi.com
 
-**Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
 
 This Neo4j graph database uses hERG data from the publicly available **ChEMBL 23** database:
 
