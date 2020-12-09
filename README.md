@@ -1,7 +1,7 @@
 
 # Graph-Database
 
-## **Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
+   **Journal of Chemical Information and Modeling**; DOI: https://doi.org/10.1021/acs.jcim.0c00947
 
 ## **Using Graph Databases to Investigate Trends in Structure-Activity Relationship Networks**
 
